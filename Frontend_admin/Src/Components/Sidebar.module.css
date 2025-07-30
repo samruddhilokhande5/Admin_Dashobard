@@ -1,0 +1,38 @@
+.side-bar {
+    width: 150px;
+    background-color: rgb(124, 108, 228);
+    height: 100%;
+    float: left;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.ul-aside {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 71, 128);
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    overflow: auto;
+}
+
+.li-aside a {
+    display: block;
+    color: white;
+    padding: 20px 18px;
+    text-decoration: none;
+}
+
+.li-aside a.active {
+    background-color: #30906d;
+    color: white;
+}
+
+.li-aside a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}

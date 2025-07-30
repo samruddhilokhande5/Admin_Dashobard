@@ -1,0 +1,30 @@
+.ul-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060e14;
+    box-shadow: 10px 10px 10px 5px lightblue;
+}
+
+.li-header {
+    float: left;
+}
+
+.li-header a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.li-header a:hover:not(.active) {
+    background-color: #be1839;
+}
+
+.active {
+    background-color: #04AA6D;
+}
