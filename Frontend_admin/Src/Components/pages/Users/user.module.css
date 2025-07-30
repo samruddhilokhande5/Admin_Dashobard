@@ -1,0 +1,28 @@
+ table,
+ th,
+ td {
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+
+ table {
+     width: 100%;
+     margin-top: 20px;
+     width: calc(100% - 20px);
+     margin-left: 10px;
+     margin-right: 10px;
+     box-shadow: 10px 10px 5px lightblue;
+ }
+
+ th {
+    color: rgb(39, 52, 146);
+ }
+
+ h1 {
+    margin-top: 50px;
+    color: rgb(26, 17, 17);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+ 
+ 
